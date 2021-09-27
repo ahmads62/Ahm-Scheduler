@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+  font-size: 100% ;
+  font-family:Verdana, Geneva, Tahoma, sans-serif, cursive, Roboto;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+    background-color: mistyrose;
+  }
+  
+textarea {
+    background: transparent;
+    border: none;
+    resize: none;
+    color: #000000;
+    border-left: 1px solid black;
+    padding: 10px;
+  }
+
+.jumbotron {
+    background-image: url('https://mdbootstrap.com/img/new/slides/003.jpg');
+    text-align: center;
+    background-color:#06aed5;
+    color: black;
+    border-radius: 0;
+    border-bottom: 10px solid black;
+    min-height: 5rem;
+  }
+.description {
+  white-space: pre-wrap;
+}
+
+.time-block {
+  text-align: center;
+  border-radius: 15px;
+}
+
+.row {
+  white-space: pre-wrap;
+  border-top: 2px solid white;
+}
+
+.hour {
+    background-color: #06aed5;
+    border-left: 1px solid black;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    color: black;
+    padding-top: 1.5rem;
+    text-align: center;
+}
+
+.past {
+  background-color: #d3d3d3;
+  color: black;
+}
+
+.present {
+  background-color: #ff6961;
+  color: black;
+}
+
+.future {
+  background-color: #77dd77;
+  color: black;
+}
+
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06aed5;
+  color: black;
+  
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.notification {
+  display: none;
+  padding-bottom: 10px;
+  color: black;
+}
+
+.show {
+  display: block;
+}
+
+@media screen and (max-width:575px){
+
+.hour {
+  border-radius: 15px;
+}
+.saveBtn {
+   border-radius: 15px;
+}
+textarea {
+  border-radius: 15px;
+  
+}
+
+} 
